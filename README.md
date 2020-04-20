@@ -19,6 +19,7 @@ Currency(id=5e9e060da7197f5f8d53d0ed, currency=HKD, country=HONG KONG, rate=7.75
 API #1.  It will give list of all avaialble currencies fetched from mongo database:
 
 GET http://localhost:8080/currency-converter/getCurrencies
+
 [
     "INR",
     "SGD",
@@ -31,6 +32,7 @@ GET http://localhost:8080/currency-converter/getCurrencies
 API #2. It will give list of all currencies along with the countries and rate associated with them keeping USD as base.
 
 GET http://localhost:8080/currency-converter/getCurrenciesRates
+
 
 [
     {
@@ -68,6 +70,8 @@ GET http://localhost:8080/currency-converter/getCurrenciesRates
 API #3. It will give currency details of a particular country supplied in Query param.
 
 GET http://localhost:8080/currency-converter/getCurrencyRate?country=INDIA
+
+
 {
     "currency": "INR",
     "country": "INDIA",
@@ -77,6 +81,7 @@ GET http://localhost:8080/currency-converter/getCurrencyRate?country=INDIA
 API #4. It will give the converted euivalent amount for the supplied currencies.
 
 POST http://localhost:8080/currency-converter/getCurrencyConversionRate
+
 {
     "currencyFrom": "INR",
     "currencyTo": "HKD",
