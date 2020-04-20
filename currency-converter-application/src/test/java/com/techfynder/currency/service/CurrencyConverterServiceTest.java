@@ -1,4 +1,4 @@
-package com.altimetrik.currency.service;
+package com.techfynder.currency.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

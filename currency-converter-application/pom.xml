@@ -9,8 +9,8 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.altimetrik</groupId>
-	<artifactId>currency-converter</artifactId>
+	<groupId>com.techfynder</groupId>
+	<artifactId>currency-converter-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>currency-converter</name>
 	<description>Demo project for Spring Boot</description>
