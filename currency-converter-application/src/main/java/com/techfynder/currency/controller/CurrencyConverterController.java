@@ -19,8 +19,9 @@ import com.techfynder.currency.model.Currency;
 import com.techfynder.currency.model.CurrencyConversionDTO;
 import com.techfynder.currency.service.CurrencyConverterService;
 
-@RestController("/currency-converter")
+@RestController
 @Validated
+@RequestMapping("/currency-converter")
 public class CurrencyConverterController {
 	
 	@Autowired
